@@ -1,0 +1,45 @@
+.cointaner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.display{
+    height: 10vh;
+    width: 250px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.options{
+    padding:15px;
+    cursor: pointer;
+}
+.options:hover{
+    background-color: darkgrey;
+}
+ .hide{
+    visibility: hidden
+
+} 
+#list{
+position: relative;
+}
+ .options i{
+    position: absolute;
+      right: 0;
+}
+.para i{
+    position:  absolute;
+    right: 10px;
+}
+.para i:hover{
+    color: red;
+    background-color: darkgrey;
+    transform: rotate(180deg);
+}
